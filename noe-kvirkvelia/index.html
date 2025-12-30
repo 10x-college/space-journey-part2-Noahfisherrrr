@@ -81,6 +81,90 @@
                 </article>
             </div>
         </section>
+        <section id="schedule">
+            <div class="hologram-overlay">
+                <h2>LIVE DEPARTURE BOARD</h2>
+                <table>
+                    <caption>REAL-TIME WARP GATE STATUS</caption>
+                    <thead>
+                        <th>Flight</th>
+                        <th>Destination</th>
+                        <th>Gate</th>
+                        <th>Time</th>
+                        <th>Status</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="Status-go">Boarding</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="status-wait">Fueling</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="status-delay">Delayed</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td class="status-stop">Canceled</td>
+                     </tbody>
+                     <tfoot>
+                        <tr>
+                            <td colspan="5">SCANNING FOR INCOMING VESSELS...</td>
+                        </tr>
+                     </tfoot>
+                </table>
+            </div>
+        </section>
+        <section id="booking">
+            <div class="kiosk-interface">
+                <h2>SELF-SERVICE TERMINAL</h2>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>IDENTITY VERIFICATION</legend>
+                        <label for="design">Full Designation</label>
+                        <input type="text" id="design" name="design" required>
+                        <label for="code">ID Code</label>
+                        <input type="text" id="code" name="code" required>
+                    </fieldset>
+                    <fieldset>
+                        <legend>FLIGHT PARAMETERS</legend>
+                        <label for="destination">Select Destination</label>
+                        <input list="planets" name="planets" id="destination" required>
+                        <datalist id="planets">
+                            <option value="Kepler-186f">
+                            <option value="Titan Station">
+                            <option value="Nebula Resort">
+                            <option value="Event Horizon">
+                        </datalist>
+                        <label for="classcab">Cabin Class</label>
+                        <select id="classcab" name="classcab" required>
+                            <option value="Economy">Economy (Stasis Pod)</option>
+                            <option value="Business">Business (Quarters)</option>
+                            <option value="First">First (Zero-G Suite)</option>
+                        </select>
+                    </fieldset>
+                    <button type="submit">AUTHORIZE CREDIT TRANSFER</button>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <p>TERMINAL X-OMEGA // OPERATED BY GALACTIC FEDERATION // SAFETY NOT GUARANTEED.</p>
+        </footer>
     </main>
     
 </body>
