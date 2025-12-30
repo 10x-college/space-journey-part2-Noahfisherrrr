@@ -47,7 +47,7 @@ SYSTEM: ONLINE
 TRAFFIC: HEAVY (Add the class blink to this span: `<span class="blink">`)
 
 TEMP: -270°C
-
+---------------------------------------------------------------------------------------
 Step 4: Main Layout & Destinations
 Create a `<main>` tag to hold the primary content. We will have three main sections inside it.
 
@@ -82,6 +82,8 @@ Card 2: Titan Station (Class: Industrial)
 Card 3: Nebula Resort (Class: Luxury)
 
 Card 4: Event Horizon (Class: Extreme)
+
+________________________________________________________________✔
 
 Step 5: The Departure Board
 Create the second section for the flight schedule.
